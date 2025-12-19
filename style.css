@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+.name{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(23, 0, 123);
+    color: white;
+    border-radius:  50px;
+    height: 4em;
+    width: 5em;
+    text-align: center;
+    font-size: larger;
+    box-shadow: 4px 4px 4px black;
+    
+    
+
+}
+
+.heads{
+background-color: grey;
+}
+
+a{
+    display: block;
+    text-decoration: none;
+    padding-bottom: 10px;
+}
+
+.link{
+position: sticky;
+top: 0;
+width: 80px;
+height: 100vh;
+background-color: grey;
+border-right: 3px black solid;
+border-bottom: 3px black solid;
+
+}
+
+body{
+    min-height: 100vh;
+    /* display: flex; */
+    
+
+}
+
+main{
+    display: flex;
+    border: 3px black solid;
+    background-color: rgb(23, 49, 58);
+}
+
+.nav-links{
+    font-size: 1.3em;
+
+}
+a:link{
+    color: darkblue;
+}
+a:hover{
+    color: red;
+    background-color: aliceblue ;
+}
+a:visited{
+    color: rgb(255, 255, 255);
+    background-color: blueviolet;
+}
+a:active{
+    color: rgb(255, 0, 225);
+    background-color: black;
+}
+
+.card-holder{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    flex-wrap: wrap;
+    
+}
+
+.cards{
+    background-color: rgb(143, 143, 143);
+    width: 270px;
+    height: 250px;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    margin-top: 3px;
+    position:relative;
+}
+
+.cards:hover{
+    box-shadow: 1px 1px 10px 10px rgba(51, 0, 255, 0.345);
+}
+
+.stop{
+    height: 250px;
+}
+
+.cool-cards{
+    
+    position:absolute;
+    background-color: rgb(47, 104, 153);
+    width:270px;
+    height: 20px;
+   bottom:-1px;
+}
